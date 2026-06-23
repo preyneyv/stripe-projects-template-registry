@@ -1,4 +1,4 @@
-# projects-template-registry
+# Stripe Projects Template Registry
 
 `projects-template-registry` is the manifest registry for `stripe projects build`.
 
@@ -22,7 +22,7 @@ For an example of a public template repo, see Stripe's [`projects-templates`](ht
 
 ## Contributing
 
-Add or update manifests here when you want a template from any public repo to appear in `stripe projects build`. See [CONTRIBUTING.md](CONTRIBUTING.md) for the expected manifest workflow.
+Add or update manifests here when you want a template from any public repo to appear in `stripe projects build`. For a commented manifest example, see [example/example.yaml](example/example.yaml).
 
 ## Security
 
