@@ -1,0 +1,47 @@
+guided:
+  category: one_time_payment
+  framework: nextjs
+
+template: mixpanel/storefront
+variant: purple-wave
+default: true
+variant_description: Vercel • Supabase • Mixpanel
+install_command: pnpm install
+
+repo: https://github.com/mixpanel/mixpanel-storefront-template/tree/main/.
+ref: e2a4d6e5d87a67f0c57e876826219ac57ce7782e
+
+metadata:
+  name: Simple Storefront
+  description: E-commerce storefront with product analytics and checkout tracking
+  owner: mixpanel
+  tags:
+    - Analytics
+    - E-commerce
+    - Next.js
+    - Mixpanel
+
+services:
+  - vercel/project
+  - mixpanel/analytics
+  - supabase/project
+
+next_steps:
+  - label: Run locally
+    command: pnpm dev
+  - label: Deploy
+    command: pnpm deploy
+
+tier_plans:
+  vercel/project:
+    free_lowest_cost: Vercel/hobby
+    starter_paid: Vercel/pro
+    higher_scale: Vercel/pro
+  mixpanel/analytics:
+    free_lowest_cost: Mixpanel/free
+    starter_paid: Mixpanel/growth
+    higher_scale: Mixpanel/growth
+  supabase/project:
+    free_lowest_cost: Supabase/free
+    starter_paid: Supabase/pro
+    higher_scale: Supabase/pro
