@@ -20,7 +20,7 @@ metadata:
     - One-time payment
 
 repo: https://github.com/postalform/gym-cancellation-saas-template
-ref: eee450c52d30b984a525339924c3262645481f11
+ref: c63f8c1a2357d4adab5268486ca4f0896337a7c3
 
 services:
   - cloudflare/workers
