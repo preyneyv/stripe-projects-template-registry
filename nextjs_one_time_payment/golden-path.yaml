@@ -6,7 +6,7 @@ variant: golden-path
 default: true
 variant_description: Vercel • Neon • Clerk • Twilio
 install_command: npm install && npm run setup:stripe
-ref: f41475ab82470aad5f8d568ee872586320d4de2a
+ref: 3fa897c849a4406569d9bf130b9f7785ac5d199a
 repo: https://github.com/stripe/projects-templates/tree/main/nextjs_one_time_payment_golden-path
 metadata:
   name: Next.js One-time Payment Starter

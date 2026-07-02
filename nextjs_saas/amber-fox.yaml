@@ -6,7 +6,7 @@ variant: amber-fox
 default: true
 variant_description: Vercel • Neon • Clerk • Twilio
 install_command: npm install && npm run setup:stripe
-ref: f41475ab82470aad5f8d568ee872586320d4de2a
+ref: 3fa897c849a4406569d9bf130b9f7785ac5d199a
 repo: https://github.com/stripe/projects-templates/tree/main/nextjs_saas_amber-fox
 metadata:
   name: Next.js SaaS Starter
@@ -57,4 +57,3 @@ tier_plans:
     free_lowest_cost: Twilio/hobbyist
     starter_paid: Twilio/hobbyist
     higher_scale: Twilio/business
-
